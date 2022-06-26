@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 
-const PlaceDetails = () => {
+const PlaceDetails = ({ place }) => {
   return (
     <div>
-      <h1>PlaceDetails</h1>
+      <h1>{place.name}</h1>
     </div>
   );
 };
